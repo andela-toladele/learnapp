@@ -1,0 +1,20 @@
+<div>
+	<section id="content">
+		<div id="action-call">
+			<p class="welcome-page">Build Your Skills, Become Better, Learn These Web technologies!</p>
+			<p id="s-header">Browse Lessons By Technology
+</p>
+    </div>
+
+    <div id="courses-div">
+    	<ul>
+    		<li ng-repeat="(key, value) in technologies">
+    		  <a ui-sref=".technologies({course: key})">
+            <p id="title">{{key}}</p>
+    			  <p id="image"><img ng-src="{{value.logo}}" id="courses-img"></p>
+    		  </a>
+    		</li>
+    	</ul>
+    </div>
+	</section>
+</div>

@@ -1,0 +1,62 @@
+{
+	"imgs": {
+		"angular": "../imgs/angularjs.svg",
+	  "javascript": "../imgs/js.jpg",
+	  "d3": "../imgs/d3.png",
+	  "node": "../imgs/nodejs.png",
+	  "rails": "../imgs/rails.png"
+	},
+
+	"technologies": {
+    "header": {
+      "0": "",
+      "1": "Name",
+      "2": "Duration",
+      "3": "Technology"
+    },
+
+	 	"AngularJS": {
+	 		"logo": "../imgs/angularjs.svg", 
+	 		"description": "AngularJS is the best client-side MVC framework right now",
+      "videos": {
+        "Introducing Angular Directives": {
+          "logo": "../imgs/angularjs.svg",
+          "name": "Introducing Angular Directives",
+          "duration": "03:24",
+          "technology": "AngularJS"
+        },
+        "Angular Promises": {
+          "logo": "../imgs/angularjs.svg",
+          "name": "Angular Promises",
+          "duration": "09:31",
+          "technology": "AngularJS"
+        }
+      }
+	 	},
+    "Ruby": {
+    	"logo": "../imgs/ruby.png", 
+    	"description": "Master your Ruby skills and increase your Rails street cred by learning to build dynamic, sustainable applications for the web"
+    },
+    "NodeJS": {
+    	"logo": "../imgs/nodeJS.png", 
+    	"description": "One of the Hottest Server side Technologies that makes you able to write javascript on the Server"
+    },
+    "Laravel": {
+    	"logo": "../imgs/laravel.png", 
+    	"description": "The Best Modern PHP framework that simplifies tasks and speeds up app development"
+    },
+    "Python": {
+    	"logo": "../imgs/python.png", 
+    	"description": "Python, is one of the fastest server side technologies that can be used to create applications in various fields of Industry"
+    },
+    "MongoDB": {
+    	"logo": "../imgs/mongoDB.jpeg", 
+    	"description": "MongoDB is a non-relational database that uses collections and documents"
+    }
+	},
+
+  "users": {
+    "lord": "aubrey",
+    "chiemeka": "alim"
+  }
+}

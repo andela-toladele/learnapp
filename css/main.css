@@ -1,0 +1,124 @@
+/* GENERAL
+************************************/
+a {
+	text-decoration: none;
+}
+
+* {
+  color: #555;
+}
+
+/* Navigation
+******************/
+nav span a {
+	color: #000;
+  cursor: pointer;
+}
+nav span a:hover {
+	text-decoration: none;
+	color: darkblue;
+}
+
+nav {
+	height: 50px;
+	background: #40cedb;
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
+.nav-right {
+	float: right;
+	padding-left: 1.5em;
+}
+#logo {
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+/* MAIN CONTENT
+************************************/
+
+#content {
+  text-align: center;
+  margin: 0 0.2em;
+}
+
+#action-call {
+	padding: 0.5em 0;
+	font-size: 2.3em;
+}
+
+.welcome-page {
+	line-height: 1.5;
+}
+
+#icon-img {
+	width: 100px;
+	height: 100px;
+	margin: 1em;
+}
+
+#details {
+	margin-top: 2.1em;
+	font-size: 2.5em;
+	line-height: 1.5;
+}
+
+/* FORMS
+************************************/
+form {
+  padding: 7em 0;
+  font-size: 1.2em;
+}
+
+.div-form {
+  padding: 1em;
+}
+
+form label {
+	display: block;
+}
+
+input {
+	min-width: 0.1em;
+	height: 2em;
+	font-size: 1.3em;
+	padding: 0 0.3em;
+}
+
+/* COURSES
+************************************/
+
+#s-header {
+  font-size: 0.9em;
+  color: #999;
+  margin: 1em 0;
+}
+
+
+#courses-div li {
+  display: inline-block;
+  margin: 2em 4em;
+  padding: 1.5em 3.5em;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px #ccc;
+	border-top: none;
+}
+
+
+#courses-div p:nth-child(1) {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+#courses-img {
+	width: 150px;
+	height: 150px;
+}
+#courses-img-small {
+	width: 25px;
+	height: 25px;
+}
+
+table th {
+	text-align: center;
+}

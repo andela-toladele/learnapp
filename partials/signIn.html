@@ -1,0 +1,18 @@
+<section id="content">
+  <p>Sign In</p>
+  <form ng-submit="submit()">
+    <div class="div-form">
+      <label for="username">Username</label>
+      <input type="text" ng-model="username" placeholder="Username">
+    </div>
+    
+    <div class="div-form">
+      <label for="password">Password</label>
+      <input type="password" ng-model="password" placeholder="Password">
+    </div>
+
+    <button type="submit">Login</button>
+  </form>
+
+  <div id="error_message">{{message}}</div>
+</section>

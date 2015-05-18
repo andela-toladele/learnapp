@@ -1,0 +1,11 @@
+{
+	"name": "LearnApplication",
+	"description": "A learning application for learners",
+	"license": "MIT",
+	"version": "0.0.0",
+	"devDependencies": {
+		"angular": "latest",
+		"angular-ui-router": "latest",
+		"bootstrap": "latest"
+	}
+}

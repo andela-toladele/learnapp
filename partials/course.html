@@ -1,0 +1,31 @@
+<div>
+	<section id="content">
+		<div id="action-call">
+		  <p class="welcome-page">{{course}} Lessons</p>
+			<p class="welcome-page">{{technology.description}}</p>
+      <p id="s-header">Browse all lessons</p>
+    </div>
+    
+    <div id="courses-div">
+    	<table class="table">
+	    	<thead>
+	    		<tr>
+	    	  	<th ng-repeat="(key, value) in header">
+	    	  	  {{value}}
+	    	  	</th>
+	    	  </tr>
+	    	</thead>
+    	  <tbody>
+    	  	<tr ng-repeat="(key, value) in videos">
+    	  	  <td>
+    	  	    <img ng-src="{{value.logo}}" id="courses-img-small">
+    	  	  </td>
+    	  	  <td><a ui-sref="videos({video: value.name})">{{value.name}}</a></td>
+    	  	  <td>{{value.duration}}</td>
+    	  	  <td>{{value.technology}}</td>
+    	    </tr>
+    	  </tbody>
+    	</table>
+    </div>
+	</section>
+</div>
